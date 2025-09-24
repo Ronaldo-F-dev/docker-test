@@ -1,0 +1,4 @@
+name: Mon Workflow
+on:
+  push:
+    branches: -main
