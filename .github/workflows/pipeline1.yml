@@ -15,8 +15,8 @@ jobs:
         run: npm install
       - name: Build du code
         run: npm run build
-      - name: Archive des résultats de tests
+      - name: Archive du build
         uses: actions/upload-artifact@v4
         with:
-          name: test-results
-          path: test-results
+          name: build-results
+          path: dist
